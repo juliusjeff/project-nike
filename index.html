@@ -11,8 +11,9 @@
     <link rel="shortcut icon" type="image/png" href="NIKE/Homepage/nike.png">
 </head>
 <body>
-    <main>
-        <header class="container">
+    
+    <header>
+        <div class="container">
             <div class="row">
                 <div class="flex flex-1 pad-lg" id="header1">
                     <div class="col-lg-6">
@@ -44,9 +45,8 @@
                                 <li><a href=#>Kids</a></li>
                                 <li><a href=#>Sale</a></li>
                                 <li><a href=#>SNKRS</a></li>
-                              </ul>
-                        </div>
-                        
+                            </ul>
+                        </div>  
                     </div>
                     <div class="col-6 col-lg-3">
                         <div class="flex" id="desktop-menu-search">
@@ -77,59 +77,136 @@
                     </p>
                 </div>
             </div>
-        </header>
-
-        <section class="container">
-            <div class="row">
-                <div class="pad-sm pad-lg">
-                    <img id="hero-pic-landscape" src="./nike/homepage/photo-main-original.jpg" width="100%" alt="Nike. Just Do It - Landscape">
-                    <img id="hero-pic-portrait" src="./nike/homepage/vertical.jpg" width="100%" alt="Nike. Just Do It - Portrait">
-                    <div class="details">
-                        <h1>MEMBER DAYS IS HERE</h1>
-                        <p>You're invited. Celebrate being part of our community with 30% off sitewide*, plus an extra 30% off clearance items.<br><br>No minimum purchase required. Use code at checkout: MEMBER30</p>
-                        <button class="bttn">Shop</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="container">
-            <div class="row">
-                <div class="pad-sm pad-lg pad-top-sm pad-top-lg">
-                    <img src="./nike/new-pictures/sneakers-week.jpg" width="100%" alt="sneakers-of-the-week">
-                    <div class="details">
-                        <h1>SNEAKERS OF THE WEEK</h1>
-                        <p>Don't miss your shot to cop Member-exclusive kicks dropping tomorrow at 10:00AM, only on the Nike App.</p>
-                        <button class="bttn">Download the Nike App</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="container">
-            <div class="row">
-                <div class="pad-sm pad-lg pad-top-sm pad-top-lg">
-                    <img src="./nike/new-pictures/vote-and-win.jpg" width="100%" alt="vote-and-win">
-                    <div class="details">
-                        <h1>VOTE AND WIN</h1>
-                        <p>Score a pair of Nike Dunk Low or Nike Vaporfly 3 when you vote on the Nike App.</p>
-                        <button class="bttn">Join the Giveaway</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="container">
-            <div class="row">
-                <div class="pad-sm pad-lg pad-top-sm pad-top-lg flex flex-1">
-                    <div class="col-6">
-                        <div class="flex">
-                            <h2>Extra 30% Off*</h2>
+        </div>  
+    </header>
+    <main>
+        <section class="pad-sm pad-lg">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <img id="hero-pic-landscape" src="./nike/homepage/photo-main-original.jpg" width="100%" alt="Nike. Just Do It - Landscape">
+                        <img id="hero-pic-portrait" src="./nike/homepage/vertical.jpg" width="100%" alt="Nike. Just Do It - Portrait">
+                        <div class="details">
+                            <h1>MEMBER DAYS IS HERE</h1>
+                            <p>You're invited. Celebrate being part of our community with 30% off sitewide*, plus an extra 30% off clearance items.<br><br>No minimum purchase required. Use code at checkout: MEMBER30</p>
+                            <button class="bttn">Shop</button>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="flex" id="extra-shop">
-                            <a href=#><h3>Shop</h3></a>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="pad-sm pad-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="pad-top-sm pad-top-lg">
+                        <img src="nike/new-pictures/sneakers-week.jpg" width="100%" alt="sneakers-of-the-week">
+                        <div class="details">
+                            <h1>SNEAKERS OF THE WEEK</h1>
+                            <p>Don't miss your shot to cop Member-exclusive kicks dropping tomorrow at 10:00AM, only on the Nike App.</p>
+                            <button class="bttn">Download the Nike App</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section class="pad-sm pad-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="pad-top-sm pad-top-lg">
+                        <img src="./nike/new-pictures/vote-and-win.jpg" width="100%" alt="vote-and-win">
+                        <div class="details">
+                            <h1>VOTE AND WIN</h1>
+                            <p>Score a pair of Nike Dunk Low or Nike Vaporfly 3 when you vote on the Nike App.</p>
+                            <button class="bttn">Join the Giveaway</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pad-sm pad-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="pad-top-sm pad-top-lg flex flex-1">
+                        <div class="col-6">
+                            <div class="flex">
+                                <h2>Extra 30% Off*</h2>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="flex" id="extra-shop">
+                                <a href=#><h3>Shop</h3></a>
+                                <div class="slider flex">
+                                    <div class="icon">
+                                        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path></svg>
+                                    </div>
+                                    <div class="icon">
+                                        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="kick-shoes flex flex-1">
+                        <div class="flex-c wd-sm wd-md wd-lg" id="kickShoes1">
+                            <img src="./nike/top-kicks/kicks-left.jpg" width="100%" alt="Women's Shoes">
+                            <div class="kicks-col flex-md pad-top-xs">
+                                <div>
+                                    <p><b>Nike Blazer Low Platform</b>
+                                        <br>Women's Shoes
+                                    </p>
+                                </div>
+                                <div>
+                                    <p><s>₱5,095</s> ₱4,079</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-c wd-sm wd-md wd-lg" id="kickShoes2">
+                            <img src="./nike/top-kicks/kicks-center.jpg" width="100%" alt="Older Kids' Road Running Shoes">
+                            <div class="kicks-col flex flex-md pad-top-xs">
+                                <div>
+                                    <p><b>Nike Revolution 6</b>
+                                        <br>Older Kids' Road Running Shoes
+                                    </p>
+                                </div>
+                                <div>
+                                    <p><s>₱2,795</s> ₱2,239</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-c wd-sm wd-md wd-lg" id="kickShoes3">
+                            <img src="./nike/top-kicks/kicks-right.jpg" width="100%" alt="Younger Kids' Shoes">
+                            <div class="kicks-col flex flex-md pad-top-xs">
+                                <div>
+                                    <p><b>Jordan 1 Low Alt SE</b>
+                                        <br>Younger Kids' Shoes
+                                    </p>
+                                </div>
+                                <div>
+                                    <p><s>₱3,345</s> ₱2,009</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pad-sm pad-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="pad-top-sm pad-top-lg flex flex-1">
+                        <div class="col-6">
+                            <div class="flex">
+                                <h2>Member-Exclusive Collections</h2>
+                            </div>
+                        </div>
+                        <div class="col-6">
                             <div class="slider flex">
                                 <div class="icon">
                                     <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path></svg>
@@ -141,108 +218,40 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="kick-shoes pad-sm pad-lg flex flex-1">
-                    <div class="flex-c wd-sm wd-md wd-lg" id="kickShoes1">
-                        <img src="./nike/top-kicks/kicks-left.jpg" width="100%" alt="Women's Shoes">
-                        <div class="kicks-col flex-md pad-top-xs">
-                            <div>
-                                <p><b>Nike Blazer Low Platform</b>
-                                    <br>Women's Shoes
-                                </p>
-                            </div>
-                            <div>
-                                <p><s>₱5,095</s> ₱4,079</p>
+                <div class="row">
+                    <div class="kick-shoes flex flex-1">
+                        <div class="flex-c wd-sm wd-md wd-lg" id="kickShoes1">
+                            <img src="./nike/new-pictures/bottom-left.jpg" width="100%" alt="Women's Shoes">
+                            <div class="kicks-col flex-md pad-top-xs">
+                                <div>
+                                    <p>Jordan Sport & Jordan Flight Collections</p>
+                                    <button class="bttn">Shop</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="flex-c wd-sm wd-md wd-lg" id="kickShoes2">
-                        <img src="./nike/top-kicks/kicks-center.jpg" width="100%" alt="Older Kids' Road Running Shoes">
-                        <div class="kicks-col flex flex-md pad-top-xs">
-                            <div>
-                                <p><b>Nike Revolution 6</b>
-                                    <br>Older Kids' Road Running Shoes
-                                </p>
-                            </div>
-                            <div>
-                                <p><s>₱2,795</s> ₱2,239</p>
+                        <div class="flex-c wd-sm wd-md wd-lg" id="kickShoes2">
+                            <img src="./nike/new-pictures/bottom-center.jpg" width="100%" alt="Older Kids' Road Running Shoes">
+                            <div class="kicks-col flex flex-md pad-top-xs">
+                                <div>
+                                    <p>Flower Power</p>
+                                    <button class="bttn">Shop</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="flex-c wd-sm wd-md wd-lg" id="kickShoes3">
-                        <img src="./nike/top-kicks/kicks-right.jpg" width="100%" alt="Younger Kids' Shoes">
-                        <div class="kicks-col flex flex-md pad-top-xs">
-                            <div>
-                                <p><b>Jordan 1 Low Alt SE</b>
-                                    <br>Younger Kids' Shoes
-                                </p>
-                            </div>
-                            <div>
-                                <p><s>₱3,345</s> ₱2,009</p>
+                        <div class="flex-c wd-sm wd-md wd-lg" id="kickShoes3">
+                            <img src="./nike/new-pictures/bottom-right.jpg" width="100%" alt="Younger Kids' Shoes">
+                            <div class="kicks-col flex flex-md pad-top-xs">
+                                <div>
+                                   <p>Never Out of Style</p>
+                                   <button class="bttn">Shop</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section class="container">
-            <div class="row">
-                <div class="pad-sm pad-lg pad-top-sm pad-top-lg flex flex-1">
-                    <div class="col-6">
-                        <div class="flex">
-                            <h2>Member-Exclusive Collections</h2>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="slider flex">
-                            <div class="icon">
-                                <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path></svg>
-                            </div>
-                            <div class="icon">
-                                <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="kick-shoes pad-sm pad-lg flex flex-1">
-                    <div class="flex-c wd-sm wd-md wd-lg" id="kickShoes1">
-                        <img src="./nike/new-pictures/bottom-left.jpg" width="100%" alt="Women's Shoes">
-                        <div class="kicks-col flex-md pad-top-xs">
-                            <div>
-                                <p>Jordan Sport & Jordan Flight Collections</p>
-                                <button class="bttn">Shop</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex-c wd-sm wd-md wd-lg" id="kickShoes2">
-                        <img src="./nike/new-pictures/bottom-center.jpg" width="100%" alt="Older Kids' Road Running Shoes">
-                        <div class="kicks-col flex flex-md pad-top-xs">
-                            <div>
-                                <p>Flower Power</p>
-                                <button class="bttn">Shop</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex-c wd-sm wd-md wd-lg" id="kickShoes3">
-                        <img src="./nike/new-pictures/bottom-right.jpg" width="100%" alt="Younger Kids' Shoes">
-                        <div class="kicks-col flex flex-md pad-top-xs">
-                            <div>
-                               <p>Never Out of Style</p>
-                               <button class="bttn">Shop</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        
-        
     </main>
+    <footer></footer>
 </body>
 </html>
