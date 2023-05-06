@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 500rem;
+    height: 2000rem;
 }
 
 a {
@@ -113,6 +113,18 @@ p {
     cursor: pointer;
  }
 
+ .bttn-white-sm {
+    font-size: 1.6rem;
+    padding: .8rem 2rem;
+    border-radius: 3rem;
+    border: 1px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    top: 27rem;
+    left: 2rem;
+ }
+
  .bttn:hover {
     opacity: .6;
  }
@@ -121,7 +133,13 @@ p {
     width: 100%;
  }
 
+.position-rel {
+    position: relative;
+}
 
+.position-ab {
+    position: absolute;
+}
 
  /* HEADER */
  #header1 {
@@ -183,6 +201,10 @@ p {
     display: none;
 }
 
+#kicks-pic-landscape {
+    display: none;
+}
+
 
 
     .col-1 {
@@ -235,6 +257,14 @@ p {
         width: 48.75%;
     }
 
+    .wd-md-3 {
+        width: 32.5%;
+    }
+
+    #essentials img {
+        height: 46.5rem;
+    }
+
     /* HERO SECTION */
     #hero-pic-portrait {
         display: none;
@@ -272,6 +302,22 @@ p {
     #kickShoes2 {
         display: flex;
     }
+
+    #essentials {
+        justify-content: space-between;
+    }
+
+    .bttn-white {
+        font-size: 1.6rem;
+        padding: .8rem 2rem;
+        border-radius: 3rem;
+        border: 1px;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        top: 37.5rem;
+        left: 2rem;
+     }
 
 
 
@@ -417,6 +463,14 @@ p {
 
     #kickShoes3 {
         display: flex;
+    }
+
+    #kicks-pic-landscape {
+        display: flex;
+    }
+
+    #kicks-pic-portrait {
+        display: none;
     }
 
    
