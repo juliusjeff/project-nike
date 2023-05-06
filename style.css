@@ -84,6 +84,9 @@ p {
     padding: 0 2rem;
 }
 
+.pad-top-xs {
+    padding-top: 3rem;
+}
 .pad-top-sm {
     padding-top: 4.8rem;
 }
@@ -247,6 +250,7 @@ p {
 
     .slider {
         display: flex;
+        justify-content: flex-end;
         padding-left: 2rem;
         gap: 1rem;
     }
