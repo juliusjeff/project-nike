@@ -66,6 +66,12 @@ p {
     flex-direction: column;
 }
 
+.flex-c-sm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .flex-1 {
     flex: 1;
 }
@@ -76,6 +82,10 @@ p {
 
 .pad-sm {
     padding: 0 2rem;
+}
+
+.pad-top-sm {
+    padding-top: 4.8rem;
 }
 
 .icon {
@@ -104,9 +114,10 @@ p {
     opacity: .6;
  }
 
-.img-pad-sm {
-    padding-top: 4.8rem;
-}
+ .wd-sm {
+    width: 100%;
+ }
+
 
 
  /* HEADER */
@@ -162,9 +173,10 @@ p {
 
 .kick-shoes {
     margin-top: 2rem;
+    justify-content: space-between;
 }
 
-#kickShoes2 #kickShoes3 {
+#kickShoes2, #kickShoes3 {
     display: none;
 }
 
@@ -212,6 +224,14 @@ p {
 /* Medium-sized screen */
 @media (min-width: 768px) {
 
+    .flex-md {
+        display: flex;
+    }
+
+    .wd-md {
+        width: 48.75%;
+    }
+
     /* HERO SECTION */
     #hero-pic-portrait {
         display: none;
@@ -243,6 +263,10 @@ p {
         justify-content: space-between;
         align-items: flex-start;
         padding-top: 1rem;
+    }
+
+    #kickShoes2 {
+        display: flex;
     }
 
 
@@ -298,8 +322,12 @@ p {
         padding: 0 3.8rem;
     }
 
-    .img-pad-lg {
+    .pad-top-lg {
         padding-top: 6.8rem;
+    }
+
+    .wd-lg {
+        width: 32.5%;
     }
 
 
@@ -381,6 +409,10 @@ p {
     .details {
         text-align: center;
         margin-top: 4.8rem;
+    }
+
+    #kickShoes3 {
+        display: flex;
     }
 
    
