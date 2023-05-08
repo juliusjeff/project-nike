@@ -5,10 +5,6 @@
     --secondary-color:#dad5d5;
 }
 
-body {
-    height: 2000rem;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -205,6 +201,55 @@ p {
     display: none;
 }
 
+.bottom-link {
+    flex-direction: column;
+}
+
+.bottom-link h3 {
+    padding-bottom: 2.4rem;
+}
+
+.bottom-link li {
+    display: none;
+}
+
+/* FOOTER */
+.footer-find a {
+    color: #f5f5f5;
+}
+
+.social-icon svg:hover {
+    fill: #f5f5f5;
+    transition: .7s;
+    cursor: pointer;
+}
+
+.social-icon {
+    padding-right: 1.5rem;
+}
+
+.footer-links {
+    color: #f5f5f5;
+    height: 33rem;
+    font-size: 1.4rem;
+    line-height: 3.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    justify-content: flex-start;
+}
+
+.footer-find, .footer-help-about {
+    padding-bottom: 2rem;
+}
+
+.social-icon-wrapper {
+    padding-top: .5rem;
+}
+
+.footer-help-about li {
+    display: none;
+}
 
     .col-1 {
         width: 8.33333%;
@@ -316,6 +361,58 @@ p {
         top: 37.5rem;
         left: 2rem;
      }
+
+     .bottom-link {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .bottom-link li {
+        display: block;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        font-weight: 500;
+    }
+
+    .bottom-link a {
+        color: #757575;
+    }
+
+    .bottom-link a:hover {
+        color: black;
+        transition: .7s;
+    }   
+
+    /* FOOTER */
+    .social-icon-wrapper {
+        justify-content: flex-end;
+        align-items: flex-start;
+        height: 30rem;
+        padding-top: 4rem;
+    }
+
+    .social-icon {
+        padding-left: 1.5rem;
+        padding-right: 0;
+    }
+
+    .footer-links {
+        height: 30rem;
+        padding-top: 4rem;
+    }
+
+    .footer-help-about li {
+        display: block;
+    }
+
+    .footer-help-about a {
+        color: #7e7e7e;
+    }
+
+    .footer-help-about a:hover {
+        color: white;
+        transition: .7s;
+    }
 
 
     .col-md-1 {
@@ -467,6 +564,20 @@ p {
 
     #kicks-pic-portrait {
         display: none;
+    }
+
+    .bottom-list {
+        display: inline;
+        width: 100%;
+    }
+
+    #essentials {
+        justify-content: space-between;
+    }
+
+    .bottom-link {
+        margin: 0 22rem;
+        padding: 0 2rem;
     }
 
    
