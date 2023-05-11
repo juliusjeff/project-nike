@@ -270,10 +270,15 @@ p {
     padding-bottom: 2rem;
 }
 
+.footer-bottom-right ul {
+    text-align: left;
+}
 
-
-
-
+.footer-bottom-left p {
+    color: #7e7e7e;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
 
     .col-1 {
         width: 8.33333%;
@@ -461,10 +466,11 @@ p {
         padding-top: 0;
     }
 
-    
-    
+    .footer-bottom-right ul {
+        text-align: right;
+    }
 
-
+    
     .col-md-1 {
         width: 8.33333%;
     }
@@ -630,6 +636,7 @@ p {
         padding: 0 2rem;
     }
 
+    /* FOOTER */
     .footer-bottom-right a {
         padding-left: 2rem;
     }
