@@ -584,7 +584,7 @@ p {
         display: flex;
         font-size: 1.8rem;
         line-height: 2.4rem;
-        width: 20rem ;
+        width: 18rem ;
         height: 4.8rem;
         text-align: center;
         border: none;
@@ -599,7 +599,7 @@ p {
     #search-btn:focus {
         outline: none;
     }
-    
+
     #search-icon {
         position: absolute;
     }
