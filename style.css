@@ -584,16 +584,20 @@ p {
         display: flex;
         font-size: 1.8rem;
         line-height: 2.4rem;
-        padding: 1.2rem 4.8rem;
+        width: 20rem ;
+        height: 4.8rem;
+        text-align: center;
         border: none;
         border-radius: 10rem;
-        color: var(--secondary-color);
         background-color: var(--primary-color);
     }
 
     #search-btn:hover {
         background-color: var(--secondary-color);
-        color:black;
+    }
+
+    #search-btn:focus {
+        outline: none;
     }
     
     #search-icon {
